@@ -18,9 +18,11 @@ Want to create reveal.js presentation in a graphical editor? Try <https://slides
 ---
 
 ### Sponsors
+
 Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
 <div align="center">
   <table>
+
     <td align="center">
       <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
         <div>
@@ -32,12 +34,14 @@ Hakim's open source work is supported by <a href="https://github.com/sponsors/ha
         </div>
       </a>
     </td>
+
   </table>
 </div>
 
 ---
 
 ### Getting started
+
 - 🚀 [Install reveal.js](https://revealjs.com/installation)
 - 👀 [View the demo presentation](https://revealjs.com/demo)
 - 📖 [Read the documentation](https://revealjs.com/markup/)
@@ -48,4 +52,3 @@ Hakim's open source work is supported by <a href="https://github.com/sponsors/ha
 <div align="center">
   MIT licensed | Copyright © 2011-2023 Hakim El Hattab, https://hakim.se
 </div>
-# presentation-lottie
