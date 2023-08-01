@@ -13,6 +13,11 @@
 
   <!-- Theme used for syntax highlighted code -->
   <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <style>
+    .reveal .slides .slide[data-background-iframe] {
+      background-color: rgba(255, 255, 255, 1);
+    }
+  </style>
 </head>
 
 <body>
@@ -842,6 +847,94 @@
           Tools support Lottie
           <img src="https://framerusercontent.com/images/QBKZ2SPpl2efzbAmTAyCNLgH1IY.png?scale-down-to=900" alt="tools">
         </section>
+      </section>
+      <section>
+        <h2>Advantages of Lottie</h2>
+        <ul>
+          <li>Small file size</li>
+          <li>Infinitely scalable</li>
+          <li>Multi-platform support and libraries</li>
+          <li>Interactivity</li>
+        </ul>
+      </section>
+
+      <section>
+        <section>
+          <h3>How to create</h3>
+          <ol>
+            <li>Adobe After Effects</li>
+            <li>Lottiefiles</li>
+            <li>Tumult Hype</li>
+            <li>Lottie-Windows plugin for Sketch</li>
+            <li>Figma</li>
+            <li>Lottie-Web (JS library)</li>
+          </ol>
+        </section>
+        <section><iframe data-src="https://lottiefiles.com/animations/car-animation-OuuzmwF4Vu" width="900" height="700"
+            style="background-color: white;"></iframe> </section>
+      </section>
+
+      <section>
+        <section>
+          <h3>How to use</h3>
+          <small>
+            <ol>
+              <li>Get lottie file</li>
+              <li>Include the Lottie Library
+                <pre><code>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+            </code></pre>
+              </li>
+              <li>Create a Container for the Animation
+                <pre><code><div id="lottie-container"></div>
+            </code></pre>
+              </li>
+              <li>
+                Initialize the Animation
+                <pre><code>
+<script>
+  // Path to the Lottie JSON file
+  const animationPath = 'path_to_file.json';
+
+  // Animation options
+  const animationOptions = {
+    container: document.getElementById('lottie-container'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: animationPath,
+  };
+
+  // Initialize the animation
+  const animation = lottie.loadAnimation(animationOptions);
+</script>
+</code></pre>
+              </li>
+            </ol>
+          </small>
+        </section>
+
+
+        <section><iframe width="560" height="315" src="https://youtube.com/embed/5P1-ENKQ-Vg"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        </section>
+
+        <section><iframe width="560" height="315" src="https://www.youtube.com/embed/dYioU2Gk-LY"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe></section>
+      </section>
+
+      <section>
+        <h2>Thank you for watching!</h2>
+        <p>
+          Alexey Roman, github.com/zweroboy1
+        </p>
+        <img src="https://avatars.githubusercontent.com/u/65929550?v=4" style="border-radius: 200px;" width="200"
+          height="200">
       </section>
     </div>
   </div>
